@@ -3,59 +3,37 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-theme-fluidity'
 
-[params]
-  # Cutting off the page title to two chars for mobile (console-demo -> co)
-  titleCutting = true
 
-  # Set the animation style -- https://animate.style/
-  # To disable animations, please remove or comment animationStyle parameter
-  animateStyle = "animated zoomIn fast" 
-
-  [[params.navlinks]]
-  name = "about/"
-  url = "about/"
-
-  [[params.navlinks]]
-  name = "posts/"
-  url = "posts/"
-
-  [[params.navlinks]]
-  name = "teaching/"
-  url = "teaching/"
- 
- 
 [menus]
+  [[menus.main]]
+    identifier = "home"
+    pageRef = "/"
+    weight = 10
 
-  [menus.main]
-    [[menus.main]]
-      identifier = "home"
-      pageRef = "/"
-      weight = 10
+  [[menus.main]]
+    identifier = "post"
+    pageRef = "/posts"
+    weight = 20
 
-    [[menus.main]]
-      identifier = "post"
-      pageRef = "/posts"
-      weight = 20
+  [[menus.main]]
+    identifier = "tag"
+    pageRef = "/tags"
+    weight = 30
 
-    [[menus.main]]
-      identifier = "tag"
-      pageRef = "/tags"
-      weight = 30
+  [[menus.main]]
+    identifier = "archive"
+    pageRef = "/archives"
+    weight = 40
 
-    [[menus.main]]
-      identifier = "archive"
-      pageRef = "/archives"
-      weight = 40
+  [[menus.main]]
+    identifier = "about"
+    pageRef = "/about"
+    weight = 50
 
-    [[menus.main]]
-      identifier = "about"
-      pageRef = "/about"
-      weight = 50
-
-    [[menus.main]]
-      identifier = "search"
-      pageRef = "/search"
-      weight = 60 
+  [[menus.main]]
+    identifier = "search"
+    pageRef = "/search"
+    weight = 60 
   
 
  
