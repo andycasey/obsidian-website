@@ -3,4 +3,33 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-theme-fluidity'
 
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+
+  [[params.navlinks]]
+  name = "teaching/"
+  url = "teaching/"
+  
+[module]
+  [[module.mounts]]
+    excludeFiles = "templates/*"
+    source = 'content'
+    target = 'content'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
