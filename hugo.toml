@@ -10,7 +10,26 @@ enableEmoji = true
 pygmentsUseClasses = true
 pygmentsCodefences = true
 
+ignoreLogs = [
+  "warning-goldmark-raw-html"
+]
 
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [
+            ["$$", "$$"],
+            ["\\[", "\\]"],
+          ]
+          inline = [
+            ["\\(", "\\)"],
+          ]
 
 [menus]
   [[menus.main]]
