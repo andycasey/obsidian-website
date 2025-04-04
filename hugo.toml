@@ -1,4 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://astrowizici.st/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-theme-fluidity'
+
+
