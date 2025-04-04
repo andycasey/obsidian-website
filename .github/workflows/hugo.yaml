@@ -61,6 +61,10 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys:
             hugo-
+      - name: Tailwind
+        id: tailwind
+        run: |
+          sudo snap install
       - name: Build with Hugo
         run: |
           hugo \
