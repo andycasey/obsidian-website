@@ -3,6 +3,14 @@ languageCode = 'en-us'
 title = 'Andy Casey'
 theme = 'hugo-theme-fluidity'
 
+summaryLength = 100
+hasCJKLanguage = false
+enableEmoji = true
+
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+
 
 [menus]
   [[menus.main]]
