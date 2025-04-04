@@ -22,7 +22,43 @@ theme = 'hugo-theme-fluidity'
   [[params.navlinks]]
   name = "teaching/"
   url = "teaching/"
+ 
+ 
+[menus]
+
+  [menus.main]
+    [[menus.main]]
+      identifier = "home"
+      pageRef = "/"
+      weight = 10
+
+    [[menus.main]]
+      identifier = "post"
+      pageRef = "/posts"
+      weight = 20
+
+    [[menus.main]]
+      identifier = "tag"
+      pageRef = "/tags"
+      weight = 30
+
+    [[menus.main]]
+      identifier = "archive"
+      pageRef = "/archives"
+      weight = 40
+
+    [[menus.main]]
+      identifier = "about"
+      pageRef = "/about"
+      weight = 50
+
+    [[menus.main]]
+      identifier = "search"
+      pageRef = "/search"
+      weight = 60 
   
+
+ 
 [module]
   [[module.mounts]]
     excludeFiles = "templates/*"
