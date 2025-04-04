@@ -64,7 +64,7 @@ jobs:
       - name: Tailwind
         id: tailwind
         run: |
-          npm install tailwindcss @tailwindcss/cli
+          npm install tailwindcss @tailwindcss/cli @tailwindcss/typography
       - name: Build with Hugo
         run: |
           hugo \
