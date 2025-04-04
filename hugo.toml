@@ -1,6 +1,6 @@
 baseURL = 'https://astrowizici.st/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Andy Casey'
 theme = 'hugo-theme-fluidity'
 
 
@@ -21,13 +21,8 @@ theme = 'hugo-theme-fluidity'
     weight = 30
 
   [[menus.main]]
-    identifier = "archive"
-    pageRef = "/archives"
-    weight = 40
-
-  [[menus.main]]
-    identifier = "about"
-    pageRef = "/about"
+    identifier = "contact"
+    pageRef = "/contact"
     weight = 50
 
   [[menus.main]]
