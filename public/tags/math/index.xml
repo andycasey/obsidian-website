@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss
+  version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Math on Andy Casey</title>
+    <link>http://localhost:1313/tags/math/</link>
+    <description>Recent content in Math on Andy Casey</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Math Typesetting</title>
+      <link>http://localhost:1313/posts/math-typesetting/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description><content:encoded><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>\begin{aligned}
+KL(\hat{y} || y) &amp;= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \
+JS(\hat{y} || y) &amp;= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+\end{aligned}</p>
+<blockquote>
+<p>Check out <a href="https://gohugo.io/content-management/mathematics/">Hugo Math Typesetting</a> for more details.</p></blockquote>
+<ul>
+<li>To enable Math Typesetting globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
+<li>To enable Math Typesetting on a per page basis include the parameter <code>math: true</code> in content files</li>
+</ul>
+<p>Configure the <code>hugo.yaml</code> file to setup goldmark to support Math Typesetting:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">markup</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">defaultMarkdownHandler</span><span class="p">:</span><span class="w"> </span><span class="l">goldmark</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">goldmark</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">extensions</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">passthrough</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">delimiters</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">block</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="p">[</span><span class="s2">&#34;$$&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;$$&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="p">[</span><span class="s2">&#34;\\[&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;\\]&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">inline</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span>- <span class="p">[</span><span class="s2">&#34;\\(&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;\\)&#34;</span><span class="p">]</span><span class="w">
+</span></span></span></code></pre></div><p>Note: You can also set the parameter <code>math.engine</code> to <code>katex</code> to use <a href="https://katex.org/">KaTeX</a> instead of MathJax.</p>
+<h3 id="math">Math</h3>
+<p>This is an inline \(a^*=x-b^*\) equation.</p>
+<p>These are block equations:</p>
+\[a^*=x-b^*\]\[ a^*=x-b^* \]\[
+a^*=x-b^*
+\]<p>These are also block equations:</p>
+$$a^*=x-b^*$$$$a^*=x-b^*$$$$
+a^*=x-b^*
+$$$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$<h3 id="chemistry">Chemistry</h3>
+$$C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$$]]></content:encoded></item></channel>
+</rss>
