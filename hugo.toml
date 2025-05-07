@@ -118,7 +118,7 @@ github = "andycasey"
 linkedin = "Your_LinkedIn_username"
 
 [params.social.share]
-disabled = false
+disabled = true
 disableByType = ["not-exist"]
 platforms = [
   { name = "x" },
@@ -139,18 +139,16 @@ disabled = false
 disableByType = ["page"]
 
 [params.comment]
-disabled = false
+disabled = true
 disableByType = ["page"]
-thirdParty = """
-your comment script will be loaded here
-"""
+thirdParty = """"""
 
 [params.search]
 disabled = false
 provider = "pagefind"
 
 [params.math]
-math = false
+math = true
 mathEngine = "mathJax"
 
 [params.enableEmoji]

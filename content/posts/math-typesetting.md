@@ -7,6 +7,7 @@ tags:
   - math
 params:
   math: true
+toc: true
 ---
 
 Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.
