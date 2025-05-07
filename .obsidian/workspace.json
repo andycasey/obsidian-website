@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/emoji-support.md",
+                "file": "content/posts/markdown-syntax.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "emoji-support"
+              "title": "markdown-syntax"
             }
           }
         ]
@@ -179,8 +179,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "90b45494a95edf81",
+  "active": "6f4be6508f79eb87",
   "lastOpenFiles": [
+    "archetypes/default.md",
+    "content/posts/emoji-support.md",
     "foo/layouts/partials/utils/social-connect.html",
     "foo/layouts/partials/utils/math.html",
     "foo/layouts/partials/utils/share.html",
@@ -200,7 +202,6 @@
     "foo/static/css/main.css",
     "foo/layouts/partials/utils",
     "foo/layouts/partials/toc.html",
-    "foo/layouts/partials/terms.html",
     "foo/exampleSite/content/about.md",
     "foo/exampleSite/archetypes/default.md",
     "foo/images/tn.png",
@@ -208,14 +209,12 @@
     "foo/archetypes/default.md",
     "foo/README.md",
     "content/posts/cjk-test.md",
-    "archetypes/default.md",
     "Welcome.md",
     "content/posts/markdown-syntax.md",
     "content/posts/rich-content.md",
     "content/posts/placeholder-content.md",
     "content/posts/math-typesetting.md",
     "content/posts/highlight-syntax.md",
-    "content/posts/emoji-support.md",
     "content/new mouse.md",
     "themes/fluidity/content/posts/post-2.md",
     "node_modules/@tailwindcss/cli/README.md",
