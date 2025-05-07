@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/mentoring-philosophy.md",
+                "file": "content/posts/navigating-burnout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mentoring-philosophy"
+              "title": "navigating-burnout"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "fca2684daea431c1",
@@ -182,6 +181,8 @@
   },
   "active": "6f4be6508f79eb87",
   "lastOpenFiles": [
+    "content/posts/mentoring-philosophy.md",
+    "content/posts/navigating-burnout.md",
     "layouts/_default/partials/article-metadata.html",
     "public/index.xml",
     "public/posts/index.xml",
@@ -192,9 +193,7 @@
     "public/tags/shortcodes/index.xml",
     "public/tags/cjk/index.xml",
     "public/tags/text/index.xml",
-    "public/tags/math/index.xml",
     "content/posts/placeholder-content.md",
-    "content/posts/mentoring-philosophy.md",
     "content/posts/cjk-test.md",
     "content/posts/highlight-syntax.md",
     "content/posts/markdown-syntax.md",
