@@ -54,10 +54,10 @@ ignoreLogs = [
   [[menus.main]]
     identifier = "search"
     pageRef = "/search"
-    weight = 60 
-  
+    weight = 60
 
- 
+
+
 [module]
   [[module.mounts]]
     excludeFiles = "templates/*"
@@ -97,7 +97,7 @@ disableWatch = true
 target = "assets/notwatching/hugo_stats.json"
 
 [params]
-description = "Your site description"
+description = "I fit bad models to worse data."
 fullContentRSS = true
 mainSections = ["posts"]
 
