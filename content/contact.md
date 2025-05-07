@@ -2,9 +2,10 @@
 title: Contact
 date: 2024-10-01T16:01:23+08:00
 draft: false
-tags: []
+tags: 
 categories: 
 toc: false
+show_social: "false"
 ---
 Contact me
 
