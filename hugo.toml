@@ -97,8 +97,9 @@ disableWatch = true
 target = "assets/notwatching/hugo_stats.json"
 
 [params]
-description = "I fit bad models to worse data."
+description = "I'm Andy Casey, and I fit bad models to worse data."
 fullContentRSS = true
+featured = false
 mainSections = ["posts"]
 
 [params.pageSize]

@@ -179,13 +179,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f4be6508f79eb87",
+  "active": "29649787de7d73f2",
   "lastOpenFiles": [
+    "layouts/_default/home.html",
     "layouts/_default/partials/footer.html",
     "layouts/_default/partials",
     "layouts/_default/untitled folder",
     "Welcome.md",
-    "layouts/_default/home.html",
     "layouts/_default",
     "layouts/hugo-theme-fluidity/untitled folder",
     "layouts/hugo-theme-fluidity",
