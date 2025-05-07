@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fca2684daea431c1",
@@ -179,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29649787de7d73f2",
+  "active": "6f4be6508f79eb87",
   "lastOpenFiles": [
     "layouts/_default/partials/article-metadata.html",
     "public/index.xml",
