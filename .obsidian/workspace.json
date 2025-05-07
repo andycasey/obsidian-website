@@ -196,7 +196,9 @@
   },
   "active": "c087ca1cb6ab775c",
   "lastOpenFiles": [
+    "content/about.md",
     "content/search/_index.md",
+    "content/contact.md",
     "content/search",
     "content/search.md",
     "node_modules/@pagefind/darwin-x64/bin/pagefind-v1.3.0-x86_64-apple-darwin.tar.gz.sha256",
@@ -210,8 +212,6 @@
     "node_modules/pagefind/types",
     "node_modules/@pagefind/windows-x64",
     "node_modules/pagefind/README.md",
-    "content/contact.md",
-    "content/about.md",
     "Welcome.md",
     "Untitled.md",
     "content/contact/Untitled.md",
