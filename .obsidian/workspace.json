@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "content/about.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "about"
+            }
+          },
+          {
+            "id": "c087ca1cb6ab775c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "content/contact.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "contact"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,25 +194,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29649787de7d73f2",
+  "active": "c087ca1cb6ab775c",
   "lastOpenFiles": [
-    "layouts/_default/home.html",
-    "layouts/_default/partials/footer.html",
-    "layouts/_default/partials",
-    "layouts/_default/untitled folder",
-    "Welcome.md",
-    "layouts/_default",
-    "layouts/hugo-theme-fluidity/untitled folder",
-    "layouts/hugo-theme-fluidity",
-    "layouts/untitled folder",
-    "layouts",
-    "Untitled.md",
+    "content/search/_index.md",
+    "content/search",
+    "content/search.md",
+    "node_modules/@pagefind/darwin-x64/bin/pagefind-v1.3.0-x86_64-apple-darwin.tar.gz.sha256",
+    "node_modules/@pagefind/darwin-x64/bin/pagefind_extended-v1.3.0-x86_64-apple-darwin.tar.gz.sha256",
+    "node_modules/@pagefind/darwin-x64/README.md",
+    "node_modules/@pagefind/darwin-x64/package.json",
+    "node_modules/@pagefind/darwin-x64/bin/pagefind_extended",
+    "node_modules/@pagefind/darwin-x64/bin",
+    "node_modules/pagefind/types/internal.d.ts",
+    "node_modules/pagefind/types/index.d.ts",
+    "node_modules/pagefind/types",
+    "node_modules/@pagefind/windows-x64",
+    "node_modules/pagefind/README.md",
     "content/contact.md",
+    "content/about.md",
+    "Welcome.md",
+    "Untitled.md",
     "content/contact/Untitled.md",
     "content/posts/highlight-syntax.md",
     "content/posts/cjk-test.md",
-    "content/about.md",
-    "content/contact",
     "themes/fluidity/README.md",
     "themes/fluidity/content/posts/post-2.md",
     "themes/fluidity/content/posts/post-1.md",
@@ -209,15 +228,11 @@
     "content/posts/markdown-syntax.md",
     "archetypes/default.md",
     "content/posts/emoji-support.md",
-    "foo/layouts/partials/utils/social-connect.html",
     "foo/exampleSite/content/search/_index.md",
     "foo/exampleSite/content/posts/rich-content.md",
     "foo/exampleSite/content/posts/placeholder-content.md",
     "foo/exampleSite/content/posts/math-typesetting.md",
     "foo/exampleSite/content/posts/markdown-syntax.md",
-    "foo/exampleSite/content/posts/highlight-syntax.md",
-    "foo/exampleSite/content/posts/emoji-support.md",
-    "foo/exampleSite/content/posts/cjk-test.md",
     "foo/images/tn.png",
     "foo/images/screenshot.png",
     "themes/hugo-theme-fluidity/images/tn.png",
