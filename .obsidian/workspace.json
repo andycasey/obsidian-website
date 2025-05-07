@@ -179,8 +179,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f4be6508f79eb87",
+  "active": "29649787de7d73f2",
   "lastOpenFiles": [
+    "layouts/_default/partials/article-metadata.html",
     "public/index.xml",
     "public/posts/index.xml",
     "public/tags/tag-5/index.xml",
@@ -191,7 +192,6 @@
     "public/tags/cjk/index.xml",
     "public/tags/text/index.xml",
     "public/tags/math/index.xml",
-    "public/tags/index.xml",
     "content/posts/placeholder-content.md",
     "content/posts/mentoring-philosophy.md",
     "content/posts/cjk-test.md",
