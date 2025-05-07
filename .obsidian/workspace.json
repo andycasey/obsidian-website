@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/contact.md",
+                "file": "Welcome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "contact"
+              "title": "Welcome"
             }
           }
         ]
@@ -181,8 +181,15 @@
   },
   "active": "90b45494a95edf81",
   "lastOpenFiles": [
-    "content/contact/Untitled.md",
+    "layouts/_default/home.html",
+    "layouts/_default",
+    "layouts/hugo-theme-fluidity/untitled folder",
+    "layouts/hugo-theme-fluidity",
+    "layouts/untitled folder",
+    "layouts",
+    "Untitled.md",
     "content/contact.md",
+    "content/contact/Untitled.md",
     "content/posts/highlight-syntax.md",
     "content/posts/cjk-test.md",
     "content/about.md",
@@ -202,9 +209,6 @@
     "foo/layouts/partials/utils/math.html",
     "foo/layouts/partials/utils/share.html",
     "foo/layouts/partials/utils/icon.html",
-    "foo/layouts/partials/utils/author.html",
-    "foo/layouts/partials/head/js.html",
-    "foo/layouts/partials/head/css.html",
     "foo/exampleSite/content/search/_index.md",
     "foo/exampleSite/content/posts/rich-content.md",
     "foo/exampleSite/content/posts/placeholder-content.md",
@@ -214,10 +218,6 @@
     "foo/exampleSite/content/posts/emoji-support.md",
     "foo/exampleSite/content/posts/cjk-test.md",
     "foo/exampleSite/content/archives/_index.md",
-    "foo/static/css/main.css",
-    "foo/layouts/partials/utils",
-    "foo/exampleSite/content/about.md",
-    "foo/exampleSite/archetypes/default.md",
     "foo/images/tn.png",
     "foo/images/screenshot.png",
     "themes/hugo-theme-fluidity/images/tn.png",
