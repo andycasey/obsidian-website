@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/math-typesetting.md",
+                "file": "content/posts/mentoring-philosophy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "math-typesetting"
+              "title": "mentoring-philosophy"
             }
           }
         ]
@@ -181,9 +181,12 @@
   },
   "active": "6f4be6508f79eb87",
   "lastOpenFiles": [
-    "content/about.md",
-    "content/posts/math-typesetting.md",
     "content/posts/highlight-syntax.md",
+    "content/posts/mentoring-philosophy.md",
+    "content/posts/emoji-support.md",
+    "content/posts/cjk-test.md",
+    "content/posts/math-typesetting.md",
+    "content/about.md",
     "content/contact.md",
     "content/search/_index.md",
     "content/search",
@@ -202,7 +205,6 @@
     "Welcome.md",
     "Untitled.md",
     "content/contact/Untitled.md",
-    "content/posts/cjk-test.md",
     "themes/fluidity/README.md",
     "themes/fluidity/content/posts/post-2.md",
     "themes/fluidity/content/posts/post-1.md",
@@ -213,11 +215,9 @@
     "content/new mouse.md",
     "content/posts/markdown-syntax.md",
     "archetypes/default.md",
-    "content/posts/emoji-support.md",
     "foo/exampleSite/content/search/_index.md",
     "foo/exampleSite/content/posts/rich-content.md",
     "foo/exampleSite/content/posts/placeholder-content.md",
-    "foo/exampleSite/content/posts/math-typesetting.md",
     "foo/images/tn.png",
     "foo/images/screenshot.png",
     "themes/hugo-theme-fluidity/images/tn.png",
