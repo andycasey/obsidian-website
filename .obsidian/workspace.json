@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e586456607965111",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "themes/fluidity/content/posts/post-2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "post-2"
-            }
-          },
-          {
             "id": "6f4be6508f79eb87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/new mouse.md",
+                "file": "content/posts/emoji-support.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "new mouse"
+              "title": "emoji-support"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "29649787de7d73f2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,42 +181,44 @@
   },
   "active": "6f4be6508f79eb87",
   "lastOpenFiles": [
-    "themes/fluidity/content/posts/post-2.md",
+    "content/posts/cjk-test.md",
+    "archetypes/default.md",
+    "Welcome.md",
+    "foo/README.md",
+    "content/posts/markdown-syntax.md",
+    "content/posts/rich-content.md",
+    "content/posts/placeholder-content.md",
+    "content/posts/math-typesetting.md",
+    "content/posts/highlight-syntax.md",
+    "content/posts/emoji-support.md",
     "content/new mouse.md",
-    "package-lock.json",
-    "node_modules/@tailwindcss/cli/LICENSE",
+    "content/posts",
+    "foo/theme.toml",
+    "foo/tailwind.config.js",
+    "foo/static/css/main.css",
+    "foo/static/favicon.ico",
+    "foo/static/css",
+    "foo/static",
+    "foo/run_example.sh",
+    "foo/package.json",
+    "foo/package.hugo.json",
+    "foo/images/tn.png",
+    "foo/images/screenshot.png",
+    "foo/exampleSite/content/search/_index.md",
+    "foo/exampleSite/content/posts/rich-content.md",
+    "foo/exampleSite/content/posts/placeholder-content.md",
+    "foo/exampleSite/content/posts/math-typesetting.md",
+    "foo/exampleSite/content/posts/markdown-syntax.md",
+    "foo/exampleSite/content/posts/emoji-support.md",
+    "foo/exampleSite/content/posts/highlight-syntax.md",
+    "foo/exampleSite/content/posts/cjk-test.md",
+    "foo/exampleSite/content/archives/_index.md",
+    "foo/exampleSite/content/about.md",
+    "foo/exampleSite/archetypes/default.md",
+    "foo/archetypes/default.md",
+    "themes/fluidity/content/posts/post-2.md",
     "node_modules/@tailwindcss/cli/README.md",
-    "node_modules/@tailwindcss/cli/dist/index.mjs",
-    "node_modules/@tailwindcss/cli/dist",
-    "node_modules/@tailwindcss/cli/package.json",
-    "node_modules/prettier/plugins/yaml.d.ts",
-    "node_modules/prettier/plugins/typescript.d.ts",
-    "node_modules/prettier/standalone.d.ts",
-    "node_modules/prettier/plugins/postcss.d.ts",
-    "node_modules/prettier/plugins/meriyah.d.ts",
     "node_modules/prettier/THIRD-PARTY-NOTICES.md",
-    "node_modules/prettier/README.md",
-    "node_modules/jiti/README.md",
-    "node_modules/enhanced-resolve/README.md",
-    "node_modules/@parcel/watcher/README.md",
-    "node_modules/postcss-selector-parser/README.md",
-    "node_modules/postcss-selector-parser/CHANGELOG.md",
-    "node_modules/node-addon-api/README.md",
-    "node_modules/postcss-selector-parser/API.md",
-    "node_modules/node-addon-api/LICENSE.md",
-    "node_modules/tailwindcss/README.md",
-    "node_modules/node-addon-api/tools/README.md",
-    "node_modules/lightningcss/README.md",
-    "node_modules/@tailwindcss/oxide-darwin-x64/README.md",
-    "node_modules/tapable/README.md",
-    "node_modules/detect-libc/README.md",
-    "node_modules/lodash.isplainobject/README.md",
-    "node_modules/@tailwindcss/typography/README.md",
-    "node_modules/prettier-plugin-go-template/README.md",
-    "node_modules/picomatch/README.md",
-    "node_modules/ulid/README.md",
-    "node_modules/lightningcss/node_modules/detect-libc/README.md",
-    "node_modules/@tailwindcss/node/README.md",
     "themes/hugo-theme-fluidity/images/tn.png",
     "themes/hugo-theme-fluidity/images/screenshot.png",
     "themes/fluidity/content/posts/post-3/bryce-canyon.jpg"

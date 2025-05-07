@@ -6,6 +6,8 @@ draft: false
 images: []
 tags: ["emojis", "hugo"]
 ---
+3
+test
 
 Emoji can be enabled in a Hugo project in a number of ways. 
 The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
