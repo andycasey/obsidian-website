@@ -37,9 +37,14 @@ ignoreLogs = [
     weight = 10
 
   [[menus.main]]
+    identifier = "posts"
+    pageRef = "/posts"
+    weight = 20
+
+  [[menus.main]]
     identifier = "research"
     pageRef = "/research"
-    weight = 10
+    weight = 30
 
   [[menus.main]]
     identifier = "teaching"
@@ -47,34 +52,19 @@ ignoreLogs = [
     weight = 40
 
   [[menus.main]]
-    identifier = "publications"
-    pageRef = "/publications"
-    weight = 20
-
-  [[menus.main]]
-    identifier = "posts"
-    pageRef = "/posts"
-    weight = 20
-
-  [[menus.main]]
-    identifier = "tag"
-    pageRef = "/tags"
-    weight = 30
-
-  [[menus.main]]
     identifier = "talks"
     pageRef = "/talks"
-    weight = 40  
+    weight = 50  
 
   [[menus.main]]
     identifier = "contact"
     pageRef = "/contact"
-    weight = 50
+    weight = 60
 
   [[menus.main]]
     identifier = "search"
     pageRef = "/search"
-    weight = 60
+    weight = 70
 
 
 
