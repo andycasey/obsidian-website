@@ -19,7 +19,7 @@ ignoreLogs = [
   [markup.tableOfContents]
     endLevel = 5
     ordered = false
-    startLevel = 2
+    startLevel = 1
 
   [markup.goldmark]
     [markup.goldmark.extensions]
