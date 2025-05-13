@@ -1,8 +1,7 @@
 ---
 toc: false
-showdate: false
 showthedate: false
-date: ""
+showmetadata: false
 ---
 
 

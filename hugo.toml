@@ -107,7 +107,8 @@ description = "I'm Andy Casey, and I fit bad models to worse data."
 fullContentRSS = true
 featured = false
 mainSections = ["posts"]
-
+showthedate = true
+showmetadata = true
 [params.pageSize]
 home = 5
 list = 5
