@@ -16,6 +16,11 @@ ignoreLogs = [
 [markup]
   defaultMarkdownHandler = "goldmark"
 
+  [markup.tableOfContents]
+    endLevel = 5
+    ordered = false
+    startLevel = 2
+
   [markup.goldmark]
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
