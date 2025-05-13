@@ -3,6 +3,7 @@
 {{- $lastmodMachine := .Lastmod | time.Format "2006-01-02T15:04:05-07:00" -}}
 {{- $lastmodHuman := .Lastmod | time.Format ":date_long" -}}
 
+{{ if .Params.showmetadata }}
 <div
   class="relative overflow-hidden
             bg-gradient-to-br from-white/95 to-neutral-50/90
@@ -13,7 +14,6 @@
             shadow-lg shadow-sky-100/20 dark:shadow-sky-900/20
             transition-all duration-300 ease-out mb-4">
   <!-- Article metadata -->
-  {{ if .Params.showmetadata }}
     <div class="flex flex-wrap gap-6">
 
     <!-- Date, reading time, categories -->
@@ -87,7 +87,6 @@
       {{- end -}}
     </div>
   </div>
-  {{ end }}
   
   <!-- Tags -->
   {{- if .GetTerms "tags" -}}
@@ -106,3 +105,4 @@
   <!-- Decorative gradient line -->
   <div class="fluidity-decorative-gradient-line"></div>
 </div>
+{{ end }}
