@@ -23,13 +23,15 @@
                       group-hover:scale-110">
           {{- partial "utils/icon.html" (dict "icon" "calendar") -}}
         </span>
-        <time
-          datetime="{{ $dateMachine }}"
-          title="{{ i18n "published" | default "Published" }}"
-          class="text-sm group-hover:text-sky-600 dark:group-hover:text-sky-400
+	{{ if Params.showthedate }}
+            <time
+              datetime="{{ $dateMachine }}"
+              title="{{ i18n "published" | default "Published" }}"
+              class="text-sm group-hover:text-sky-600 dark:group-hover:text-sky-400
                       transition-colors duration-200">
-          {{ $dateHuman }}
-        </time>
+              {{ $dateHuman }}
+            </time>
+	{{ end }}
       </div>
 
       {{ if ne ($lastmodHuman) ($dateHuman) }}
