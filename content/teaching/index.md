@@ -5,6 +5,11 @@ showmetadata: false
 ---
 
 
+# Teaching
+
+I've created or contributed to units in physics, machine learning, data analysis, scientific programming, and observational astronomy.
+
+This page links 
 Teaching page.
 
 
