@@ -61,10 +61,6 @@ ignoreLogs = [
     pageRef = "/contact"
     weight = 60
 
-  [[menus.main]]
-    identifier = "search"
-    pageRef = "/search"
-    weight = 70
 
 
 
@@ -154,7 +150,7 @@ disableByType = ["page"]
 thirdParty = """"""
 
 [params.search]
-disabled = false
+disabled = true
 provider = "pagefind"
 
 [params.math]
