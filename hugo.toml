@@ -109,6 +109,7 @@ featured = false
 mainSections = ["posts"]
 showthedate = true
 showmetadata = true
+
 [params.pageSize]
 home = 5
 list = 5
@@ -136,7 +137,7 @@ platforms = [
 platforms = ["github", "x", "linkedin"]
 
 [params.articleMetadata]
-position = "header"
+position = "sidebar"
 
 [params.toc]
 disabled = false
