@@ -23,7 +23,7 @@
                       group-hover:scale-110">
           {{- partial "utils/icon.html" (dict "icon" "calendar") -}}
         </span>
-	{{ if Params.showthedate }}
+	{{ if .Params.showthedate }}
             <time
               datetime="{{ $dateMachine }}"
               title="{{ i18n "published" | default "Published" }}"
